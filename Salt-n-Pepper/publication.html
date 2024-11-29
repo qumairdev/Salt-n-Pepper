@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salt'n Pepper</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/utility.css">
+</head>
+<body>
+    <header>
+    <!-- navbar started -->
+    <nav class="navbar d-flex justify-sa wrap align-c pt-10">
+        <ul class="sidebar" type="none">
+           <li class="close" onclick=hideSidebar()><a href=""><i class="fa-solid fa-xmark"></i></a></li>
+           <li><a class="anchor" href="#">Home</a></li> 
+           <li><a class="anchor" href="#">About Us</a></li> 
+           <li><a class="anchor" href="#">Publications</a></li> 
+           <li><a class="anchor" href="#">Feedback</a></li>  
+           <li><button class="franchise-btn"><a class="anchor" href="">Get a Franchise</a></button></li> 
+        </ul>
+    <div class="nav-icon">
+        <i onclick=showSidebar() class="fa-solid fa-bars"></i>          
+    </div>
+    <div class="logo">
+         <img class="logo-img" src="./assets/imges/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp" alt="logo-img">
+    </div>
+    <div class="nav-items d-flex wrap gap-35 align-c">
+         <a class="anchor" href="./index.html">Home</a>
+         <a class="anchor" href="./about.html">About Us</a>
+         <a class="anchor" href="./publication.html">Publications</a>
+         <a class="anchor" href="./feedback.html">Feedback</a> 
+         <button class="franchise-btn"><a class="anchor" href="">Get a Franchise</a></button>
+         <button class="order-btn"><a class="anchor" href="">Order Online <span class="order-btn-arrow"><i class="fa-solid fa-arrow-right"></i></span></a></button>
+    </div>  
+    <div class="order-btn2">
+        <button class="order-btn"><a class="anchor" href="">Order Online <span class="order-btn-arrow"><i class="fa-solid fa-arrow-right"></i></span></a></button>
+    </div>
+    </nav>
+    <!-- navbar ended -->
+    </header>
+
+
+
+
+
+
+
+
+
+
+    <!-- main-section started -->
+
+    <main>
+
+    </main>
+
+    <!-- main-section ended -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer-section started -->
+
+   <footer>
+    <section class="footer-section d-flex justify-c wrap">
+           <div class="footer-1">
+                <img src="./assets/imges/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp" alt="logo-img">
+                <p>The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner and moments of the heart, this place is where unforgettable memories are made.</p>
+                <ul>
+                    <li> Terms & conditions </li>
+                    <li> Privacy policy</li>
+                </ul>
+            </div>
+           <div class="footer-2">
+                <h3>Site Links</h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Publications</a></li>
+                    <li><a href="">Get a Franchise</a></li>
+                    <li><a href="">Feedback</a></li>
+                </ul>
+           </div>
+           <div class="footer-3">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li class="contact_heading">Head office Address</li>
+                    <li><a href="">23-Usman Block, New GardenTown, Lahore, Pakistan</a></li>
+                    <li class="contact_heading">Head office number</li>
+                    <li><a href="">+92 42 358 509 31</a></li>
+                    <li><a href="">+92 42 358 509 30</a></li>
+                    <li class="contact_heading">Email Address</li>
+                    <li><a href="">snpfood@brain.net.pk</a></li>
+                    <li class="contact_heading">Free delivery number</li>
+                    <li><a href="">+92 42 111 100 678</a></li>
+                    <li><a href="">+92 03 111 444 610</a></li>
+                </ul>
+           </div>
+           <div class="footer-4">
+                <h3>Follow Us</h3>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <img src="./assets/imges/footer-4-img-1.webp" alt="">
+                <img src="./assets/imges/footer-4-img-2.webp" alt="">
+           </div>
+    </section>
+    <section class="copy-right d-flex justify-sb wrap">
+             <div class="copy-right-left">
+                <p>© 2023 <span>Salt'n Pepper Restaurant.</span></p>
+             </div>
+             <div class="copy-right-right">
+                <p>Powered Bytossdown.com</p>
+             </div>
+    </section>
+    <div class="footer-snp-layer">
+        <img src="./assets/imges/f-s-i.webp">
+    </div>
+   </footer>
+
+
+<!-- footer-section ended -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/24f85a6097.js" crossorigin="anonymous"></script>
+    <script>
+       function showSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    const screenWidth = window.innerWidth;
+
+    if (screenWidth <= 991) {
+        sidebar.style.display = 'flex'; // Show sidebar on smaller screens
+    } else {
+        sidebar.style.display = 'none'; // Hide sidebar on larger screens
+    }
+    }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>

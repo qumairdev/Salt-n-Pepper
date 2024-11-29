@@ -1,0 +1,240 @@
+
+/* main utility clasess started */
+
+@font-face {
+    font-family:apercu-light;
+    src: url(../fonts/Apercu\ Light.otf);
+}
+@font-face {
+    font-family:apercu-medium;
+    src: url(../fonts/Apercu\ Medium.otf);
+}
+@font-face {
+    font-family:apercu-bold;
+    src: url(../fonts/Apercu\ Bold.otf);
+}
+@font-face {
+    font-family:futurak;
+    src: url(../fonts/futurak.ttf);
+}
+@font-face {
+    font-family:butlur;
+    src: url(../fonts/Butler_Bold.otf);
+}
+:root{
+    --black:#000000;
+    --white:#ffffff;
+    --red  :#ed1c24;
+    --green:#28a745;
+    --light :apercu-light;
+    --medium:apercu-medium;
+    --bold  :apercu-bold;
+    --f-bold:futurak;
+    --b-bold:butlur;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: var(--black);
+    color: var(--white);
+    font-family: var(--light);
+}
+
+/* main utility clasess ended */
+
+
+
+/* display flex utility clasess started */
+
+.d-flex {
+    display: flex;
+}
+.justify-c{
+    justify-content: center;
+}
+.justify-sa{
+    justify-content: space-around;
+}
+.justify-sb{
+    justify-content: space-between;
+}
+.justify-se{
+    justify-content: space-evenly;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.align-c{
+    align-items: center;
+}
+.gap-5{
+    gap: 5px;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-15{
+    gap: 15px;
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-25{
+    gap: 25px;
+}
+.gap-30{
+    gap: 30px;
+}
+.gap-35{
+    gap: 35px;
+}
+
+
+/* display flex utility clasess ended */
+
+
+
+/* other utility clasess started */
+
+.anchor {
+    text-decoration: none;
+    color: var(--white);
+}
+.text-center{
+    text-align: center;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+
+.ml-5{
+    margin-left: 5px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.ml-25{
+    margin-left:  25px;
+}
+
+.mr-5{
+    margin-right: 5px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.mr-25{
+    margin-right:  25px;
+}
+
+.pt-5{
+    padding-top: 5px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pt-25{
+    padding-top: 25px;
+}
+
+.pb-5{
+    padding-bottom: 5px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.pb-15{
+    padding-bottom: 15px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pb-25{
+    padding-bottom: 25px;
+}
+
+.pl-5{
+    padding-left: 5px;
+}
+.pl-10{
+    padding-left: 10px;
+}
+.pl-15{
+    padding-left: 15px;
+}
+.pl-20{
+    padding-left: 20px;
+}
+.pl-25{
+    padding-left:  25px;
+}
+
+.pr-5{
+    padding-right: 5px;
+}
+.pr-10{
+    padding-right: 10px;
+}
+.pr-15{
+    padding-right: 15px;
+}
+.pr-20{
+    padding-right: 20px;
+}
+.pr-25{
+    padding-right:  25px;
+}
+
+/* other utility clasess ended */

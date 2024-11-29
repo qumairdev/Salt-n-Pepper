@@ -1,0 +1,1828 @@
+
+/* --------------------------navbar started-------------------------- */
+
+.logo-img{
+    width: 162px;
+}
+.nav-items{
+    font-size: 1.6rem;
+}
+.franchise-btn{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    padding: 19px 17px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.order-btn {
+    background-color: var(--red);
+    border: none;
+    border-radius: 30px;
+    padding: 19px 17px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-left: -20px;
+}
+.order-btn-arrow{
+    background-color: var(--white);
+    color: var(--red);
+    padding: 6px 8px;
+    border-radius: 20px;
+    margin-left: 6px;
+}
+.nav-icon{
+    display: none;
+    font-size: 2.4rem;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.678);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.11);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+}
+.sidebar .franchise-btn {
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 12px 15px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: -5px;
+}
+.sidebar li{
+    padding: 12px 20px;
+}
+.sidebar a{
+    color: var(--black) !important;
+}
+.sidebar li:hover{
+    background-color: #f0f0f0;
+    width: 100%;
+    cursor: pointer;
+}
+.close {
+    font-size: 2.4rem;
+}
+.order-btn2{
+    display: none;
+}
+
+/* --------------------------navbar ended --------------------------*/
+
+/* --------------------------Banner slider started-------------------------- */
+
+.mySlides{
+    width: 100%;
+}
+
+/* --------------------------Banner slider ended-------------------------- */
+
+
+/* --------------------------sec-2 brands started-------------------------- */
+
+.sec-2{
+    padding: 70px 0 160px;
+}
+.sec-2-h-p h2 span{
+     font-family: var(--f-bold);
+     font-style: normal;
+     font-weight: 400;
+     font-size: 52px;
+     line-height: 62px;
+}
+.sec-2-h-p h2 {
+    margin-bottom:8px;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 50px;
+}
+.sec-2-h-p p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 40px;
+}
+.brands img{
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 3px;
+}
+.brand-btn{
+    display: block;
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 50px;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 24px;
+}
+
+/* --------------------------sec-2  brands ended-------------------------- */
+
+
+/* --------------------------section-3 Restaurant Franchises started-------------------------- */
+.sec-3{
+    position: relative;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 70px;
+}
+.sec-3-h-p h2{
+    font-family: var(--b-bold);
+    margin-bottom: 8px;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.sec-3-h-p h2 span {
+    font-family: var(--f-bold);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.sec-3-h-p p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 48px;
+}
+.restaurants .left small {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+.restaurants .left h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.restaurants .left h3 span {
+    font-family: var(--f-bold);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.restaurants .left p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+.restaurants .left button{
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: transparent;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+.restaurants .left .order-btn-arrow{
+    background-color: var(--white);
+    color: var(--red);
+    padding: 6px 8px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.res-1 .right img {
+    margin-left: 70px;
+}
+.res-2 {
+    margin: 48px 27px;
+}
+img.res-3-img {
+    margin-right: 25px;
+}
+.s-img {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+}
+/* --------------------------section-3 Restaurant Franchises ended-------------------------- */
+
+/* --------------------------section-4 Expresss Franchises started-------------------------- */
+.sec-4{
+    position: relative;
+    padding: 70px;
+}
+.sec-4-h h2{
+    font-family: var(--b-bold);
+    margin-bottom: 8px;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.sec-4-h h2 span {
+    font-family: var(--f-bold);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.p-img {
+    position: absolute;
+    left: 33px;
+    top: 40px;
+    z-index: -1;
+}
+.express img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+.express small{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    text-align: center;
+    margin-bottom: 8px;
+    display: block;
+    margin-top: 24px;
+}
+.express h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.express h3 span{
+    font-family: var(--f-bold);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+.express p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+    height: 36px;
+    text-align: center;
+}
+.express button{
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: transparent;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+.express .order-btn-arrow{
+    background-color: var(--white);
+    color: var(--red);
+    padding: 6px 8px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.express .order-btn-arrow i{
+    transform: rotate(-37deg);
+}
+.color-img {
+    position: absolute;
+    right: 0px;
+    bottom: -50px;
+}
+/* --------------------------section-4 Expresss Franchises started-------------------------- */
+
+/* --------------------------section-5 Village Franchises started-------------------------- */
+
+.sec-5{
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 48px 0px;
+}
+.sec-5-h h2{
+    font-family: var(--b-bold);
+    margin-bottom: 8px;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.sec-5-h h2 span {
+    font-family: var(--f-bold);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.Village .left {
+    width: 50% !important;
+}
+.Village .left img{
+    width: 100% !important;
+}
+.Village .right{
+    margin: auto 0;
+}
+.Village small {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+.Village h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.Village h3 span {
+    font-family: var(--f-bold);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Village p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+.Village button{
+    width: 174px;
+    height: 50px;
+    border: none;
+    background-color: var(--green);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+.Village .order-btn-arrow{
+    background-color: var(--white);
+    color: var(--green);
+    padding: 6px 8px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+/* --------------------------section-5 Village Franchises ended-------------------------- */
+
+/* --------------------------section-6 Opening Soon Franchises Startted-------------------------- */
+
+.sec-6{
+    padding: 60px 0px 60px;
+}
+.sec-6-h h2{
+    font-family: var(--b-bold);
+    margin-bottom: 8px;
+    font-style: normal;
+    font-size: 51px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.sec-6-h h2 span {
+    font-family: var(--f-bold);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+}
+.sec-6-h h2 small{
+    font-family: var(--b-bold);
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
+}
+.box{
+    width: 26%;
+    height: 230px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+    padding: 25px 24px;
+    margin-bottom: 2px;
+}
+.box img {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.box small{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+.box h4{
+    font-family: 'FuturaBlack BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.box h4 span{
+    font-weight: 600;
+    margin-right: 8px;
+    font-size: 24px;
+}
+.box p{
+    font-family: 'FuturaBlack BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+/* --------------------------section-6 Opening Soon Franchises ended-------------------------- */
+
+
+/* --------------------------section-7 Social Feed Startded-------------------------- */
+
+.sec-7{
+    padding-bottom: 60px;
+}
+.sec-7-h h2{
+    margin-bottom: 0px;
+    padding-bottom: 32px;
+    font-family: var(--b-bold);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+}
+.social-images img{
+    height: auto;
+    width: 100%;
+    padding: 0 10px;
+    cursor: pointer;
+}
+button.slick-next.slick-arrow {
+    display: none !important;
+}
+
+/* --------------------------section-7 Social Feed ended-------------------------- */
+
+
+
+
+/* --------------------------Footer Section Started-------------------------- */
+
+footer{
+    position: relative;
+}
+.footer-section {
+    padding: 70px 15px 55px 15px;
+    background: rgba(255, 255, 255, 0.06);
+    position: relative;
+    gap: 30px 35px;
+}
+.footer-section h3 {
+    margin-bottom: 0px !important;
+    font-family: 'Butler';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.footer-1 {
+    width:30%;
+}
+.footer-1 img {
+    margin: 0px !important;
+    width: 140px !important;
+    padding-bottom: 24px;
+}
+.footer-1 p {
+    margin: 0px !important;
+    padding-bottom: 24px;
+    padding-right: 20px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer-1 ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer-2 {
+    width:16%;
+}
+.footer-2 h3{
+   padding-bottom: 24px;
+}
+.footer-2 ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0px 5px;
+    padding-bottom: 16px;
+}
+.footer-2 ul li a{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.7) !important;
+        text-decoration: none;
+}
+.footer-3 {
+    width: 16%;
+}
+.footer-3 h3{
+    padding-bottom: 24px;
+ }
+.footer-3 .contact_heading {
+    margin-bottom: 0px !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.footer-3 ul li {
+    list-style: none;
+    display: flex;
+    padding-bottom: 16px;
+}
+.footer-3 ul li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7) !important;
+    text-decoration: none;
+}
+.footer-4 {
+    width: 16%;
+}
+.footer-4 h3{
+    padding-bottom: 24px;
+ }
+ .footer-4 i {
+    margin-right: 8px;
+    background: #ED1C24;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.footer-4 i.fa-brands.fa-facebook-f {
+    padding: 14px 17px;
+}
+.footer-4 i.fa-brands.fa-instagram{
+    padding: 15px 16px;
+}
+.footer-4 i.fa-brands.fa-twitter{
+    padding: 15px 15px;
+}
+.footer-4 img{
+    margin-bottom: 13px;
+}
+.copy-right  {
+    padding: 20px 9%;
+    background: rgba(255, 255, 255, 0.06);
+    position: relative;
+    color: rgba(255, 255, 255, 0.6);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    width: 100%;
+}
+.copy-right-left p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+.copy-right-right p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer-snp-layer img {
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+}
+
+
+/* --------------------------Footer Section Ended------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------media queries started-------------------------- */
+
+
+@media(max-width:323px){
+    header{
+        display: none;
+    }
+}
+/* --------------------------this media query for only header started-------------------------- */
+
+@media screen and (min-device-width: 324px) and (max-device-width: 992px) { 
+    .nav-icon{
+        display: block;
+        margin: -12px 0 0 13px;
+    }  
+    .nav-items{
+        display: none !important;
+    }
+    .navbar{
+        justify-content: space-between !important;
+    }
+    .order-btn2{
+        display: block;
+    }
+    .order-btn {
+        background-color: var(--red);
+        border: none;
+        border-radius: 30px;
+        padding: 11px 10px;
+        font-size: 1.1rem;
+        font-weight: 400;
+        margin-left: 0px;
+        margin-right: 12px;
+        margin-top: -7px;
+    }
+    .order-btn-arrow{
+        color: var(--white) !important;
+        background-color: transparent !important; 
+        padding:0 0 ;
+        border-radius: 0px ;
+        margin-left: 5px ;
+    }
+    .logo-img {
+        width: 85px;
+    }
+}
+/* --------------------------this media query for only header ended-------------------------- */
+
+
+/* --------------------------others all media queries started-------------------------- */
+
+@media screen and (min-device-width: 0px) and (max-device-width: 600px) { 
+
+    /* ----------sec-2-------- */
+
+    .sec-2-h-p h2 span{
+         font-size: 32px;
+         line-height: 40px;
+    }
+    .sec-2-h-p h2 {
+        font-size: 24px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+    .sec-2-h-p p {
+        font-size: 14px;
+        margin: 0 21% 40px;
+    }
+    .sec-2 {
+        padding: 70px 0 60px;
+    }
+    .brands img {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .brand-btn{
+        width: 124px;
+        height: 50px;
+        font-size: 14px;
+    }
+     /* ----------sec-2-------- */
+
+
+
+      /* ----------sec-3-------- */
+
+    .sec-3 {
+        padding: 60px 40px;
+    }
+    .sec-3-h-p h2{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .sec-3-h-p h2 span {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .sec-3-h-p p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .res-1 .right img {
+        margin-left: 0px;
+        width: 100%;
+        padding-top: 40px;
+    }
+    .restaurants {
+        justify-content: space-between !important;
+    }
+    .restaurants-2{
+        flex-direction: column-reverse;
+    }
+    .restaurants .left .order-btn-arrow{
+        background-color: var(--white) !important;
+        color: var(--red) !important;
+    }
+    .res-2 {
+        margin: 48px 0px;
+    }
+    .res-2 .right img {
+        width: 100%;
+    }
+    .s-img {
+        position: absolute;
+        right: 32px;
+        top: 32px;
+    }
+    .s-img img {
+        width: 110px;
+    }
+
+     /* ----------sec-2-------- */
+
+
+
+
+    /* ----------sec-4-------- */
+    .p-img {
+        position: absolute;
+        left: 33px;
+        top: 40px;
+        z-index: -1;
+    }
+    .p-img img {
+        width: 110px;
+    }
+    .sec-4{
+        position: relative;
+        padding: 60px 40px;
+    }
+    .sec-4-h h2{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .sec-4-h h2 span {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .express img {
+        width: 100%;
+        height: 180px;
+        object-fit: contain;
+    }
+    .express{
+        text-align: center;
+    }
+    .express button{
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+    .express .order-btn-arrow{
+        background-color: var(--white) !important;
+        color: var(--red) !important;
+        padding: 6px 8px;
+        border-radius: 20px;
+        margin-left: 10px;
+    }
+    .express .order-btn-arrow i{
+        transform: rotate(-37deg);
+    }
+    .color-img {
+        position: absolute;
+        right: 0px;
+        bottom: 60px;
+    }
+    .color-img img{
+        width: 110px;
+    }
+    /* ----------sec-4-------- */
+
+
+
+
+
+    /* -------- sec-5---------*/
+    
+    .sec-5{
+        padding: 48px 40px;
+    }
+    .sec-5-h h2{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .sec-5-h h2 span {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .Village .left {
+        width: 100% !important;
+    }
+    .Village .left img{
+        width: 100% !important;
+    }
+    .Village .right{
+       text-align: center;
+       width: 100%;
+    }
+    .Village p {
+        font-size: 14px;
+    }
+    .Village .order-btn-arrow{
+        background-color: var(--white) !important;
+        color: var(--green) !important;
+    }
+    
+    /* -------- sec-5---------*/
+
+
+
+
+    
+
+    /* --------------------------section-6 Opening Soon Franchises Startted-------------------------- */
+
+    .sec-6{
+        padding: 60px 0px 40px;
+    }
+    .sec-6-h h2{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .sec-6-h h2 span {
+        font-size: 33px;
+        line-height: 37px;
+    }
+    .sec-6-h h2 small{
+        font-size: 20px;
+        line-height: 31px;
+    }
+    .box {
+        width: 72%;
+        height: 260px;
+    }
+
+    /* --------------------------section-6 Opening Soon Franchises ended-------------------------- */
+
+
+
+
+
+
+
+    /* --------------------------section-7 Social Feed Startded-------------------------- */
+
+    .sec-7-h h2{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .social-images img{
+        height: auto;
+        width: 100%;
+        padding: 0 3px;
+        cursor: pointer;
+    }
+
+    /* --------------------------section-7 Social Feed ended-------------------------- */
+
+
+
+
+
+
+    /* --------------------------Footer-Section-------------------------- */
+
+    section.footer-section {
+        padding: 40px 40px;
+    }
+    .footer-1{
+       width: 100%;         
+    }
+    .footer-2{
+       width: 100%;         
+    }
+    .footer-3{
+       width: 100%;         
+    }
+    .footer-4{
+       width: 100%; 
+    }
+    .footer-4 img{
+        width: 68%;
+    }
+    .footer-snp-layer img {
+        left: 10px !important;
+        width: 178px !important;
+        z-index: 0 !important;
+    }
+    /* --------------------------Footer-Section-------------------------- */
+
+
+
+
+
+}
+
+
+@media screen and (min-device-width: 601px) and (max-device-width: 768px) { 
+
+     /* ----------sec-2-------- */
+
+    .sec-2-h-p h2 span{
+        font-size: 42px;
+        line-height: 40px;
+   }
+   .sec-2-h-p h2 {
+       font-size: 34px;
+       line-height: 40px;
+       margin-bottom: 15px;
+   }
+   .sec-2-h-p p {
+       font-size: 14px;
+       margin: 0 21% 40px;
+   }
+   .brands img {
+       width: 100%;
+   }
+   .brand-btn{
+       width: 124px;
+       height: 50px;
+       font-size: 14px;
+   }
+    /* ----------sec-2-------- */
+
+
+
+
+     /* ----------sec-3-------- */
+
+    .sec-3 {
+        padding: 60px 40px;
+    }
+    .sec-3-h-p h2{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .sec-3-h-p h2 span {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .sec-3-h-p p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .res-1 .right img {
+        margin-left: 0px;
+        width: 100%;
+        padding-top: 40px;
+    }
+    .restaurants {
+        justify-content: center !important;
+        text-align: center;
+    }
+    .restaurants-2{
+        flex-direction: column-reverse;
+    }
+    .restaurants .left .order-btn-arrow{
+        background-color: var(--white) !important;
+        color: var(--red) !important;
+    }
+    .res-2 {
+        margin: 48px 0px;
+    }
+    .s-img {
+        position: absolute;
+        right: 32px;
+        top: 32px;
+    }
+    .s-img img {
+        width: 140px;
+    }
+
+     /* ----------sec-3-------- */
+
+
+
+
+      /* ----------sec-4-------- */
+
+    .p-img {
+        position: absolute;
+        left: 33px;
+        top: 40px;
+        z-index: -1;
+    }
+    .p-img img {
+        width: 140px;
+    } 
+    .sec-4{
+        position: relative;
+        padding: 60px 40px;
+    }
+    .sec-4-h h2{
+        font-size: 34px;
+        line-height: 35px;
+    }
+    .sec-4-h h2 span {
+        font-size: 38px;
+        line-height: 35px;
+    }
+    .express img {
+        width: 100%;
+        height: 180px;
+        object-fit: contain;
+    }
+    .express{
+        text-align: center;
+    }
+    .express p{
+        font-size: 13px;
+    }
+    .express button{
+        margin-top: 20px !important;
+        margin-left: 0%;
+    }
+    .express .order-btn-arrow{
+        background-color: var(--white) !important;
+        color: var(--red) !important;
+        padding: 6px 8px;
+        border-radius: 20px;
+        margin-left: 10px;
+    }
+    .express .order-btn-arrow i{
+        transform: rotate(-37deg);
+    }
+    .color-img {
+        position: absolute;
+        right: 0px;
+        bottom: 60px;
+    }
+    .color-img img{
+        width: 110px;
+    }
+       /* ----------sec-4-------- */
+
+
+
+
+
+
+
+       /* -------- sec-5---------*/
+    
+    .sec-5{
+        padding: 48px 40px;
+    }
+    .sec-5-h h2{
+        font-size: 38px;
+        line-height: 40px;
+    }
+    .sec-5-h h2 span {
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .Village .left {
+        width: 100% !important;
+    }
+    .Village .left img{
+        width: 100% !important;
+    }
+    .Village .right{
+       text-align: center;
+       width: 100%;
+    }
+    .Village p {
+        font-size: 14px;
+    }
+    .Village .order-btn-arrow{
+        background-color: var(--white) !important;
+        color: var(--green) !important;
+    }
+    
+    /* -------- sec-5---------*/
+
+
+
+
+
+
+    /* --------------------------section-6 Opening Soon Franchises Startted-------------------------- */
+
+    .sec-6{
+        padding: 60px 0px 40px;
+    }
+    .sec-6-h h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .sec-6-h h2 span {
+        font-size: 38px;
+        line-height: 45px;
+    }
+    .sec-6-h h2 small{
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .box{
+        width: 72%;
+        height: 260px;
+    }
+
+    /* --------------------------section-6 Opening Soon Franchises ended-------------------------- */
+
+
+
+
+     
+
+        /* --------------------------section-7 Social Feed Startded-------------------------- */
+
+        .sec-7-h h2{
+            font-size: 34px;
+            line-height: 40px;
+        }
+        .social-images img{
+            height: auto;
+            width: 100%;
+            padding: 0 5px;
+            cursor: pointer;
+        }
+    
+        /* --------------------------section-7 Social Feed ended-------------------------- */
+
+
+
+
+
+        /* --------------------------Footer-Section-------------------------- */
+
+    section.footer-section {
+        padding: 60px 40px;
+    }
+    .footer-1{
+       width: 100%;         
+    }
+    .footer-2{
+       width: 100%;         
+    }
+    .footer-3{
+       width: 100%;         
+    }
+    .footer-4{
+       width: 100%; 
+    }
+    .footer-4 img {
+        margin-bottom: -14px;
+        margin-left: 10px;
+    }
+    .footer-snp-layer img {
+        left: 10px !important;
+        width: 178px !important;
+        z-index: 0 !important;
+    }
+    /* --------------------------Footer-Section-------------------------- */
+
+
+
+
+
+}
+
+
+@media screen and (min-device-width: 769px) and (max-device-width: 992px) { 
+
+     /* ----------sec-2-------- */
+
+    .sec-2-h-p h2 span{
+        font-size: 52px;
+        line-height: 40px;
+   }
+   .sec-2-h-p h2 {
+       font-size: 44px;
+       line-height: 55px;
+       margin-bottom: 15px;
+   }
+   .sec-2-h-p p {
+       font-size: 14px;
+       margin: 0 21% 40px;
+   }
+   .brands img {
+       width: 100%;
+   }
+   .brand-btn{
+       width: 124px;
+       height: 50px;
+       font-size: 14px;
+   }
+
+    /* ----------sec-2-------- */
+
+
+
+
+     /* ----------sec-3-------- */
+   
+    .sec-3 {
+        padding: 60px 40px;
+    }
+    .sec-3-h-p h2{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .sec-3-h-p h2 span {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .sec-3-h-p p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .res-1 .right img {
+        margin-left: 0px;
+        width: 100%;
+        padding-top: 40px;
+    }
+    .restaurants {
+        justify-content: center !important;
+        text-align: center;
+    }
+    .restaurants-2{
+        flex-direction: column-reverse;
+    }
+    .restaurants .left .order-btn-arrow{
+        background-color: var(--white) !important;
+        color: var(--red) !important;
+    }
+    .res-2 {
+        margin: 48px 0px;
+    }
+    .s-img {
+        position: absolute;
+        right: 32px;
+        top: 32px;
+    }
+    .s-img img {
+        width: 180px;
+    }
+
+     /* ----------sec-3-------- */
+     
+
+
+
+
+      /* ----------sec-4-------- */
+
+    .p-img {
+        position: absolute;
+        left: 33px;
+        top: 40px;
+        z-index: -1;
+    }
+    .p-img img {
+        width: 180px;
+    } 
+    .sec-4{
+        position: relative;
+        padding: 60px 40px;
+    }
+    .sec-4-h h2{
+        font-size: 40px;
+        line-height: 35px;
+    }
+    .sec-4-h h2 span {
+        font-size: 44px;
+        line-height: 35px;
+    }
+    .express img {
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+    }
+    .express{
+        text-align: center;
+    }
+    .express button{
+        margin-top: 20px !important;
+        margin-left: 0%;
+    }
+    .express .order-btn-arrow{
+        background-color: var(--white) !important;
+        color: var(--red) !important;
+        padding: 6px 8px;
+        border-radius: 20px;
+        margin-left: 10px;
+    }
+    .color-img {
+        position: absolute;
+        right: 0px;
+        bottom: 60px;
+    }
+    .color-img img{
+        width: 180px;
+    }    
+       /* ----------sec-4-------- */
+
+
+
+
+
+
+
+
+     /* -------- sec-5---------*/
+    
+    .sec-5{
+        padding: 48px 40px;
+    }
+    .sec-5-h h2{
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .sec-5-h h2 span {
+        font-size: 44px;
+        line-height: 52px;
+    }
+    .Village .left {
+        width: 100% !important;
+    }
+    .Village .left img{
+        width: 100% !important;
+    }
+    .Village .right{
+       text-align: center;
+       width: 100%;
+    }
+    .Village p {
+        font-size: 14px;
+    }
+    .Village .order-btn-arrow{
+        background-color: var(--white) !important;
+        color: var(--green) !important;
+    }
+    
+    /* -------- sec-5---------*/
+    
+    
+
+
+
+
+     /* --------------------------section-6 Opening Soon Franchises Startted-------------------------- */
+
+    .sec-6{
+        padding: 60px 0px 40px;
+    }
+    .sec-6-h h2{
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .sec-6-h h2 span {
+        font-size: 40px;
+        line-height: 49px;
+    }
+    .sec-6-h h2 small{
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .box{
+        width: 40%;
+        height: 260px;
+    }
+
+    /* --------------------------section-6 Opening Soon Franchises ended-------------------------- */
+
+
+
+
+
+
+    /* --------------------------section-7 Social Feed Startded-------------------------- */
+
+    .sec-7-h h2{
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .social-images img{
+        height: auto;
+        width: 100%;
+        padding: 0 7.5px;
+        cursor: pointer;
+    }
+        
+    /* --------------------------section-7 Social Feed ended-------------------------- */
+
+
+
+
+    
+
+
+    /* --------------------------Footer-Section-------------------------- */
+
+    section.footer-section {
+        padding: 40px 40px;
+    }
+    .footer-1{
+       width: 40%;         
+    }
+    .footer-2{
+       width: 20%;         
+    }
+    .footer-3{
+       width: 20%;         
+    }
+    .footer-4{
+       width: 100%; 
+       text-align: center;
+    }
+    .footer-4 img {
+        margin-bottom: -14px;
+        margin-left: 10px;
+    }
+    .footer-snp-layer img {
+        left: 10px !important;
+        width: 178px !important;
+        z-index: 0 !important;
+    }
+    /* --------------------------Footer-Section-------------------------- */
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-device-width: 993px) and (max-device-width: 1255px) {
+
+
+    /* ----------sec-3-------- */
+
+   .sec-3-h-p h2{
+       font-size: 38px;
+       line-height: 45px;
+   }
+   .sec-3-h-p h2 span {
+       font-size: 42px;
+       line-height: 50px;
+   }
+   .sec-3-h-p p {
+       font-size: 15px;
+       line-height: 20px;
+   }
+   .res-1 .right img {
+       margin-left: 0px;
+       width: 100%;
+       margin-left: 40px;
+   }
+   .restaurants {
+       justify-content: space-between !important;
+       flex-wrap: nowrap !important;
+   }
+   .restaurants .left .order-btn-arrow{
+       background-color: var(--white) !important;
+       color: var(--red) !important;
+   }
+   .res-2 {
+       margin: 48px 0px;
+   }
+   .s-img {
+       position: absolute;
+       right: 32px;
+       top: 32px;
+   }
+   .s-img img {
+       width: 200px;
+   }
+
+    /* ----------sec-3-------- */
+    
+
+
+
+
+     /* ----------sec-4-------- */
+
+   .p-img {
+       position: absolute;
+       left: 33px;
+       top: 40px;
+       z-index: -1;
+   }
+   .p-img img {
+       width: 180px;
+   } 
+   .sec-4-h h2{
+       font-size: 40px;
+       line-height: 35px;
+   }
+   .sec-4-h h2 span {
+       font-size: 44px;
+       line-height: 35px;
+   }
+   .express img {
+       width: 100%;
+       height: 200px;
+       object-fit: contain;
+   }
+   .express{
+       text-align: center;
+   }
+   .express button{
+       margin-top: 20px !important;
+       margin-left: 0%;
+   }
+   .express .order-btn-arrow{
+       background-color: var(--white) !important;
+       color: var(--red) !important;
+       padding: 6px 8px;
+       border-radius: 20px;
+       margin-left: 10px;
+   }
+   .color-img {
+       position: absolute;
+       right: 0px;
+       bottom: 60px;
+   }
+   .color-img img{
+       width: 180px;
+   }    
+      /* ----------sec-4-------- */
+
+
+
+
+
+
+
+
+    /* -------- sec-5---------*/
+   
+   .sec-5{
+       padding: 48px 40px;
+   }
+   .sec-5-h h2{
+       font-size: 40px;
+       line-height: 42px;
+   }
+   .sec-5-h h2 span {
+       font-size: 44px;
+       line-height: 52px;
+   }
+   .Village .left {
+       width: 80% !important;
+       margin: 0 auto;
+   }
+   .Village .left img{
+       width: 100% !important;
+   }
+   .Village .right{
+      text-align: center;
+      width: 100%;
+   }
+   .Village p {
+       font-size: 14px;
+   }
+   .Village .order-btn-arrow{
+       background-color: var(--white) !important;
+       color: var(--green) !important;
+   }
+   
+   /* -------- sec-5---------*/
+   
+   
+
+
+
+
+    /* --------------------------section-6 Opening Soon Franchises Startted-------------------------- */
+
+   .sec-6{
+       padding: 60px 0px 40px;
+   }
+   .sec-6-h h2{
+       font-size: 36px;
+       line-height: 42px;
+   }
+   .sec-6-h h2 span {
+       font-size: 40px;
+       line-height: 49px;
+   }
+   .sec-6-h h2 small{
+       font-size: 24px;
+       line-height: 31px;
+   }
+   .box{
+       width: 40%;
+       height: 260px;
+   }
+
+   /* --------------------------section-6 Opening Soon Franchises ended-------------------------- */
+
+
+
+
+
+
+   /* --------------------------section-7 Social Feed Startded-------------------------- */
+
+   .sec-7-h h2{
+       font-size: 38px;
+       line-height: 50px;
+   }
+   .social-images img{
+       height: auto;
+       width: 100%;
+       padding: 0 7.5px;
+       cursor: pointer;
+   }
+       
+   /* --------------------------section-7 Social Feed ended-------------------------- */
+
+
+
+
+   
+
+
+   /* --------------------------Footer-Section-------------------------- */
+
+   section.footer-section {
+       padding: 40px 40px;
+   }
+   .footer-1{
+      width: 40%;         
+   }
+   .footer-2{
+      width: 20%;         
+   }
+   .footer-3{
+      width: 20%;         
+   }
+   .footer-4{
+      width: 100%; 
+      text-align: center;
+   }
+   .footer-4 img {
+       margin-bottom: -14px;
+       margin-left: 10px;
+   }
+   .footer-snp-layer img {
+       left: 10px !important;
+       width: 178px !important;
+       z-index: 0 !important;
+   }
+   /* --------------------------Footer-Section-------------------------- */
+
+
+
+
+
+}
+
+
+
+
+
+
+/* --------------------------others all media queries ended-------------------------- */
+
+/* --------------------------media queries ended-------------------------- */
